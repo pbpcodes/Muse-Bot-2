@@ -1,5 +1,5 @@
 {
-  "name": "distube-example",
+  "name": "muse",
   "version": "1.0.0",
   "description": "Muse Bot",
   "main": "index.js",
@@ -15,7 +15,7 @@
   "author": "Skick",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/skick1234/DisTube-Example/issues"
+    "url": ""
   },
   "homepage": "https://github.com/pbpcodes/muse-bot",
   "dependencies": {
