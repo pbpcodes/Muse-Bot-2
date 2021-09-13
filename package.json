@@ -1,0 +1,40 @@
+{
+  "name": "distube-example",
+  "version": "1.0.0",
+  "description": "Muse Bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint ./",
+    "lint:fix": "eslint --fix ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/pbpcodes/muse-bot"
+  },
+  "author": "Skick",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/skick1234/DisTube-Example/issues"
+  },
+  "homepage": "https://github.com/pbpcodes/muse-bot",
+  "dependencies": {
+    "@discordjs/opus": "^0.3.3",
+    "@distube/youtube-dl": "^2.2.2",
+    "@distube/ytdl": "^2.0.6",
+    "@distube/ytpl": "^1.0.12",
+    "@distube/ytsr": "^1.1.5",
+    "discord.js": "^12.5.3",
+    "distube": "^2.8.18",
+    "express": "^4.17.1",
+    "ffmpeg": "^0.0.4",
+    "ytdl-core": "^4.9.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.17.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1"
+  }
+}
